@@ -1,0 +1,7 @@
+2024-01-15 10:25:18 | INFO     | bot.logging_config | Binance Futures Testnet client initialised successfully.
+2024-01-15 10:25:18 | INFO     | __main__ | CMD: limit | symbol=BTCUSDT | side=SELL | qty=0.01 | price=70000
+2024-01-15 10:25:18 | INFO     | bot.orders | Placing LIMIT SELL order | symbol=BTCUSDT | qty=0.01 | price=70000
+2024-01-15 10:25:18 | DEBUG    | bot.orders | Request params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '70000', 'timeInForce': 'GTC'}
+2024-01-15 10:25:18 | DEBUG    | bot.client | Placing futures order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '70000', 'timeInForce': 'GTC'}
+2024-01-15 10:25:19 | DEBUG    | bot.client | Raw API response: {'orderId': 3851281047, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJdcd7f5678', 'price': '70000', 'avgPrice': '0.00000', 'origQty': '0.01', 'executedQty': '0', 'cumQty': '0', 'cumQuote': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'updateTime': 1705312719412}
+2024-01-15 10:25:19 | INFO     | bot.orders | LIMIT order placed successfully | orderId=3851281047 | status=NEW

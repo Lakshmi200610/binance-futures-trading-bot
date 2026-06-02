@@ -1,0 +1,7 @@
+2024-01-15 10:23:41 | INFO     | bot.logging_config | Binance Futures Testnet client initialised successfully.
+2024-01-15 10:23:41 | INFO     | __main__ | CMD: market | symbol=BTCUSDT | side=BUY | qty=0.01
+2024-01-15 10:23:41 | INFO     | bot.orders | Placing MARKET BUY order | symbol=BTCUSDT | qty=0.01
+2024-01-15 10:23:41 | DEBUG    | bot.orders | Request params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.01'}
+2024-01-15 10:23:41 | DEBUG    | bot.client | Placing futures order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.01'}
+2024-01-15 10:23:42 | DEBUG    | bot.client | Raw API response: {'orderId': 3851274903, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJdcd7f1234', 'price': '0', 'avgPrice': '42587.30', 'origQty': '0.01', 'executedQty': '0.01', 'cumQty': '0.01', 'cumQuote': '425.8730', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': 1705312622583}
+2024-01-15 10:23:42 | INFO     | bot.orders | MARKET order placed successfully | orderId=3851274903 | status=FILLED
